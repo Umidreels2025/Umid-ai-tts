@@ -1,0 +1,7 @@
+torch
+torchaudio
+TTS
+librosa
+soundfile
+flask
+flask-ngrok
