@@ -1,0 +1,21 @@
+{
+  "audio": {
+    "sample_rate": 24000,
+    "num_mels": 80
+  },
+  "training": {
+    "batch_size": 8,
+    "num_epochs": 500,
+    "learning_rate": 0.0002
+  },
+  "dataset": {
+    "path": "dataset",
+    "languages": ["uz", "ru", "en"],
+    "voice_types": ["male", "female", "child", "cartoon"]
+  },
+  "model": {
+    "type": "VITS",
+    "hidden_size": 256,
+    "num_heads": 2
+  }
+}
